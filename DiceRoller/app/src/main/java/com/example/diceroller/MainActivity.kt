@@ -102,9 +102,9 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
 fun verificacao(escolha: Int, nunDado: Int): String {
 
     if(escolha == nunDado){
-        return "Certo! Você acertou!"
+        return "Você acertou!"
     } else {
-        return "Errado! Você errou!"
+        return "Você errou!"
     }
 
 }
